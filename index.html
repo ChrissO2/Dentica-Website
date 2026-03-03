@@ -3,19 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dentica - Your Dental Care Clinic</title>
+    <title>Dentica</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar">
       <div class="container">
-        <div class="logo"><img src="images/logov2.png" /></div>
+        <div class="logo">Dentica</div>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="#offices">Nasze gabinety</a></li>
+          <li><a href="#terms">Regulamin</a></li>
         </ul>
       </div>
     </nav>
@@ -23,102 +22,178 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
       <div class="hero-content">
-        <h1>Welcome to Dentica</h1>
-        <p>Your Smile, Our Priority</p>
-        <button class="cta-button">Book an Appointment</button>
+        <h1>Gabinety stomatologiczne Dentica</h1>
+        <p>Twój uśmiech naszym priorytetem</p>
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Offices Section -->
+    <section id="offices" class="offices">
       <div class="container">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <h3>General Checkup</h3>
+        <h2>Nasze Gabinety</h2>
+        <div class="offices-grid">
+          <!-- Office 1 -->
+          <div class="office-card">
+            <div class="office-city">Wąbrzeźno</div>
+            <img
+              src="images/gabinet-wabrzezno.jpg"
+              alt="Gabinet Warszawski"
+              class="office-image"
+            />
+
+            <h4>Lekarze</h4>
+            <ul class="doctors-list">
+              <li>Lekarz stomatolog Anastazja Liashenka</li>
+              <li>Lekarz stomatolog Anna Murawska-Dziubkowska</li>
+              <li>Lekarz stomatolog Szymon Dziubkowski</li>
+              <li>Lekarz stomatolog Urszula Wilamowska-Otręba</li>
+            </ul>
+
+            <h4>Adres</h4>
+            <p>ul. Partyzanta 22<br />87-200 Wąbrzeźno</p>
+
+            <h4>Kontakt</h4>
             <p>
-              Comprehensive dental examination and professional cleaning for
-              optimal oral health.
+              Email:
+              <a href="mailto:wabrzezno@dentica.pl">wabrzezno@dentica.pl</a
+              ><br />
+              Telefon: <a href="tel:+48561234567">+48 56 123-45-67</a><br />
+              Komórkowy: <a href="tel:+48721234567">+48 721 234-567</a>
             </p>
+
+            <h4>Mapa</h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.58411091045!2d18.95152097785222!3d53.27907097227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471d2a11ee5a7bfb%3A0xc69f3fb71d43d7d7!2sDentica%20Prywatna%20Praktyka%20Stomatologiczna%20Urszula%20Wilamowska-Otr%C4%99ba!5e0!3m2!1spl!2spl!4v1772562099336!5m2!1spl!2spl"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div class="service-card">
-            <h3>Cosmetic Dentistry</h3>
+
+          <!-- Office 2 -->
+          <div class="office-card">
+            <div class="office-city">Kowalewo Pomorskie</div>
+            <img
+              src="images/gabient-kowalewo.png"
+              alt="Gabinet Krakowski"
+              class="office-image"
+            />
+
+            <h4>Lekarze</h4>
+            <ul class="doctors-list">
+              <li>Lekarz stomatolog Marta Przybysz</li>
+              <li>Lekarz stomatolog Urszula Wilamowska-Otręba</li>
+            </ul>
+
+            <h4>Adres</h4>
+            <p>ul. Konopnickiej 4<br />87-410 Kowalewo Pomorskie</p>
+
+            <h4>Kontakt</h4>
             <p>
-              Teeth whitening, veneers, and smile design to enhance your natural
-              beauty.
+              Email: <a href="mailto:kowalewo@dentica.pl">kowalewo@dentica.pl</a
+              ><br />
+              Telefon: <a href="tel:+48561234567">+48 56 123-45-67</a><br />
+              Komórkowy: <a href="tel:+48721234567">+48 721 234-567</a>
             </p>
-          </div>
-          <div class="service-card">
-            <h3>Orthodontics</h3>
-            <p>
-              Braces and aligners to straighten your teeth and improve your
-              bite.
-            </p>
-          </div>
-          <div class="service-card">
-            <h3>Pediatric Dentistry</h3>
-            <p>
-              Specialized care for children's dental health with a friendly,
-              welcoming environment.
-            </p>
-          </div>
-          <div class="service-card">
-            <h3>Root Canal Treatment</h3>
-            <p>Advanced endodontic treatment to save your natural teeth.</p>
-          </div>
-          <div class="service-card">
-            <h3>Dental Implants</h3>
-            <p>
-              Modern implant solutions for permanent and natural-looking tooth
-              replacement.
-            </p>
+
+            <h4>Mapa</h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.69768432507!2d18.8957020778477!3d53.151519972233245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471cd163557b4c85%3A0xc387897a1aa2fa66!2sWilamowska-Otr%C4%99ba%20Urszula!5e0!3m2!1spl!2spl!4v1772562178388!5m2!1spl!2spl"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
       <div class="container">
-        <h2>About Dentica</h2>
-        <p>
-          At Dentica, we believe that everyone deserves a healthy and beautiful
-          smile. With over 15 years of experience, our team of dedicated dental
-          professionals is committed to providing the highest quality care in a
-          comfortable and welcoming environment.
-        </p>
-        <p>
-          We use state-of-the-art technology and modern techniques to ensure
-          that every patient receives personalized treatment tailored to their
-          unique needs.
-        </p>
-      </div>
-    </section>
+        <h2>Opinie Pacjentów</h2>
+        <div class="reviews-carousel">
+          <button class="carousel-button prev" onclick="scrollReviews(-1)">
+            ❮
+          </button>
+          <div class="reviews-track" id="reviewsTrack">
+            <!-- Review 1 -->
+            <div class="review-card">
+              <div class="review-rating">★★★★★</div>
+              <p class="review-text">
+                "Profesjonalna obsługa, miły personel i nowoczesne urządzenia.
+                Polecam wszystkim!"
+              </p>
+              <p class="review-author">- Maria K.</p>
+              <a href="#" class="review-google-link" target="_blank"
+                >Przeczytaj opinię w Google</a
+              >
+            </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Get in Touch</h2>
-        <div class="contact-info">
-          <div class="contact-item">
-            <h3>Phone</h3>
-            <p>+1 (555) 123-4567</p>
+            <!-- Review 2 -->
+            <div class="review-card">
+              <div class="review-rating">★★★★★</div>
+              <p class="review-text">
+                "Najlepszy dentyst w okolicy. Bezbolesne zabiegi i zawsze
+                chętnie wyjaśni procedury."
+              </p>
+              <p class="review-author">- Jan S.</p>
+              <a href="#" class="review-google-link" target="_blank"
+                >Przeczytaj opinię w Google</a
+              >
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+              <div class="review-rating">★★★★★</div>
+              <p class="review-text">
+                "Po latach strachu przed dentystą mogę powiedzieć, że tutaj
+                czuję się bezpiecznie!"
+              </p>
+              <p class="review-author">- Anna W.</p>
+              <a href="#" class="review-google-link" target="_blank"
+                >Przeczytaj opinię w Google</a
+              >
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card">
+              <div class="review-rating">★★★★★</div>
+              <p class="review-text">
+                "Szybka wizyta, profesjonalne leczenie. Bardzo zadowolona z
+                efektów wybielania zębów."
+              </p>
+              <p class="review-author">- Katarzyna M.</p>
+              <a href="#" class="review-google-link" target="_blank"
+                >Przeczytaj opinię w Google</a
+              >
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review-card">
+              <div class="review-rating">★★★★★</div>
+              <p class="review-text">
+                "Dzieci nie boją się iść do dentysty! Personel jest super miły i
+                cierpliwy."
+              </p>
+              <p class="review-author">- Piotr Ł.</p>
+              <a href="#" class="review-google-link" target="_blank"
+                >Przeczytaj opinię w Google</a
+              >
+            </div>
           </div>
-          <div class="contact-item">
-            <h3>Email</h3>
-            <p>hello@dentica.com</p>
-          </div>
-          <div class="contact-item">
-            <h3>Address</h3>
-            <p>123 Dental Street, Smile City, SC 12345</p>
-          </div>
-          <div class="contact-item">
-            <h3>Hours</h3>
-            <p>
-              Mon - Fri: 9:00 AM - 6:00 PM<br />Sat: 10:00 AM - 4:00 PM<br />Sun:
-              Closed
-            </p>
-          </div>
+          <button class="carousel-button next" onclick="scrollReviews(1)">
+            ❯
+          </button>
+        </div>
+        <div class="scroll-indicator-container">
+          <div class="scroll-indicator" id="scrollIndicator"></div>
         </div>
       </div>
     </section>
@@ -126,9 +201,25 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>
-          &copy; 2026 Dentica. All rights reserved. Your oral health is our
-          mission.
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Kontakt</h4>
+            <p>Telefon: <a href="tel:+48123456789">+48 (12) 345-6789</a></p>
+            <p>Email: <a href="mailto:hello@dentica.pl">hello@dentica.pl</a></p>
+          </div>
+          <div class="footer-section">
+            <h4>Śledź nas</h4>
+            <a
+              href="https://facebook.com/dentica"
+              target="_blank"
+              class="social-link"
+              >Facebook</a
+            >
+          </div>
+        </div>
+        <p class="footer-copyright">
+          &copy; 2026 Dentica. Wszelkie prawa zastrzeżone. Twoje zdrowie
+          stomatologiczne to nasza misja.
         </p>
       </div>
     </footer>
