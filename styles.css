@@ -100,15 +100,28 @@ body {
 /* Hero Section */
 .hero {
   height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/joishaw-pediatric-10033314.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/bg_med.jpg');
   background-size: cover;
   background-position: center bottom;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: white;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    background-size: 190%;
+    background-position: center center;
+  }
 }
 
 .hero-content h1 {
